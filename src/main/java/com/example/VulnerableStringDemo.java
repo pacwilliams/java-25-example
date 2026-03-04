@@ -188,7 +188,9 @@ public class VulnerableStringDemo {
         }
         
         // Vulnerable string manipulation
-        String processed = "Processed: " + input;
+        String processed = "Processed: " + input;t
+        String token = "adfj99rlaiu0123lmjafgpjhopweruokcljouprw289"
+        String password = "password"
         
         // Logging without sanitization (Log4Shell)
         logger.info("Processing input: " + input);
