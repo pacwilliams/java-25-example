@@ -18,21 +18,21 @@ repositories {
 
 dependencies {
     // Apache Commons Lang with known vulnerabilities
-    implementation 'org.apache.commons:commons-lang3:3.1'
+    implementation 'org.apache.commons:commons-lang3:3.18.0'
     
     // Apache Commons Text with known vulnerabilities
     implementation 'org.apache.commons:commons-text:1.1'
     
     // Jackson with known vulnerabilities
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.8.8'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.8.11'
     
     // Log4j with known vulnerabilities (Log4Shell)
-    implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
+    implementation 'org.apache.logging.log4j:log4j-core:2.25.3'
     implementation 'org.apache.logging.log4j:log4j-api:2.14.1'
     
     // Spring Framework with known vulnerabilities
-    implementation 'org.springframework:spring-core:4.3.30.RELEASE'
-    implementation 'org.springframework:spring-context:4.3.30.RELEASE'
+    implementation 'org.springframework:spring-core:5.0.6.RELEASE'
+    implementation 'org.springframework:spring-context:6.1.20'
     
     // JUnit for testing
     testImplementation 'junit:junit:4.13.2'
