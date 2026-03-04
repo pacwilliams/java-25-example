@@ -45,3 +45,8 @@ application {
 tasks.named('test') {
     useJUnit()
 }
+
+
+dependencyLocking {
+    lockAllConfigurations()
+}
